@@ -8,14 +8,14 @@ pipeline {
         }
         stage('Build Backend Image') {
             steps {
-                sh 'docker build -t aurum2403/server . -f server/Dockerfile'
-                sh 'docker push aurum2403/server'
+                bat 'docker build -t aurum2403/server . -f server/Dockerfile'
+                bat 'docker push aurum2403/server'
             }
         }
         stage('Build Frontend Image') {
             steps {
-                sh 'docker build -t aurum2403/client . -f client/Dockerfile'
-                sh 'docker push aurum2403/client'
+                bat 'docker build -t aurum2403/client . -f client/Dockerfile'
+                bat 'docker push aurum2403/client'
             }
         }
     }
