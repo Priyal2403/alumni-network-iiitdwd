@@ -1,23 +1,29 @@
-# Use a Node.js image as the base
-FROM node:18-alpine
+# Stage 1: Build the React app
+FROM node:18-alpine AS builder
 
 # Set the working directory
 WORKDIR /app
 
-# Copy package.json and package-lock.json
-COPY package*.json ./
+# Copy only package.json and package-lock.json to install dependencies
+COPY client/package*.json ./
 
-# Install dependencies
-RUN npm install
+# Install only production dependencies to minimize image size
+RUN npm install --legacy-peer-deps
 
 # Copy the rest of the application code
-COPY . .
+COPY client/ .
 
-# Build the React app
+# Build the React app for production
 RUN npm run build
 
-# Expose the port the app will listen on
-EXPOSE 3000
+# Stage 2: Serve the app with a lightweight server
+FROM nginx:alpine AS runtime
 
-# Serve the built app
-CMD ["npm", "start"]
+# Copy the built files from the builder stage to the nginx web server
+COPY --from=builder /app/build /usr/share/nginx/html
+
+# Expose port 80 for serving the app
+EXPOSE 80
+
+# Start nginx to serve the React app
+CMD ["nginx", "-g", "daemon off;"]
