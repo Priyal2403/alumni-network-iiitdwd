@@ -11,19 +11,33 @@ pipeline {
                 git branch: 'ci/cd_test', url: 'https://github.com/Priyal2403/alumni-network-iiitdwd.git'
             }
         }
-        stage('Build Backend Image') {
+        stage('Test Server') {
+            steps {
+                dir('server') {
+                    bat 'npm test'  
+                }
+            }
+        }
+        stage('Build Server Image') {
             steps {
                 bat 'docker build -t aurum2403/server . -f server/Dockerfile'
                 bat 'docker push aurum2403/server'
             }
         }
-        stage('Build Frontend Image') {
+        stage('Test Client') {
+            steps {
+                dir('client') {
+                    bat 'npm test'  
+                }
+            }
+        }
+        stage('Build Client Image') {
             steps {
                 bat 'docker build -t aurum2403/client . -f client/Dockerfile'
                 bat 'docker push aurum2403/client'
             }
         }
-        stage('Update Backend on Render') {
+        stage('Deploy Server') {
             steps {
                 script {
                     def response = httpRequest(
@@ -36,7 +50,7 @@ pipeline {
                 }
             }
         }
-        stage('Update Frontend on Render') {
+        stage('Deploy Client') {
             steps {
                 script {
                     def response = httpRequest(
