@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.046adfdb.css",
+    "main.js": "/static/js/main.54d99ddf.js",
+    "static/media/sarthak.jpg": "/static/media/sarthak.b8a39aa274f01f7c95e7.jpg",
+    "static/media/aditya.jpg": "/static/media/aditya.d76ad2dd841d78e248ad.jpg",
+    "static/media/Bgnewscard1.svg": "/static/media/Bgnewscard1.f1cfef452362fad37ca091d5a5deb501.svg",
+    "static/media/Bgnewscard2.svg": "/static/media/Bgnewscard2.f036a3e9fd8642cbf1c2e86ab33491fd.svg",
+    "static/media/Bgnewscard3.svg": "/static/media/Bgnewscard3.e77d738a8c521c26176cdc9b1fb12527.svg",
+    "static/media/kshitiz.jpg": "/static/media/kshitiz.8bc72911eff7da2ef267.jpg",
+    "static/media/Error404.png": "/static/media/Error404.fe9de1c8a87d552fa643.png",
+    "static/media/priyal.jpg": "/static/media/priyal.5f33bff9bc3964e0f40b.jpg",
+    "static/media/logo.png": "/static/media/logo.534f428bcdf6e57dd7b9.png",
+    "static/media/TwoCone.png": "/static/media/TwoCone.a296352ed5cf72a5f7a5.png",
+    "static/media/Location.svg": "/static/media/Location.577339737774b4e8f29bb84c9fb3004f.svg",
+    "static/media/Batch.svg": "/static/media/Batch.8be14d5f79b3c770088a0d3713d630dd.svg",
+    "static/media/StartDate.svg": "/static/media/StartDate.847f4bf30fb5e73763b31c173f633d79.svg",
+    "index.html": "/index.html",
+    "static/media/Stipend.svg": "/static/media/Stipend.6d7201f81b4b32781c03d452fb8243de.svg",
+    "static/media/Clock.svg": "/static/media/Clock.989d2845fff83291bd5b1218177f193b.svg",
+    "main.046adfdb.css.map": "/static/css/main.046adfdb.css.map",
+    "main.54d99ddf.js.map": "/static/js/main.54d99ddf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.046adfdb.css",
+    "static/js/main.54d99ddf.js"
+  ]
+}

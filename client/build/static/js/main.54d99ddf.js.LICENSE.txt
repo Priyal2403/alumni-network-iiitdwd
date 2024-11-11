@@ -1,0 +1,265 @@
+/*
+        object-assign
+        (c) Sindre Sorhus
+        @license MIT
+        */
+
+/*!
+	Copyright (c) 2018 Jed Watson.
+	Licensed under the MIT License (MIT), see
+	http://jedwatson.github.io/classnames
+*/
+
+/*! ./Component */
+
+/*! ./Context */
+
+/*! ./checkPropTypes */
+
+/*! ./cjs/react-is.development.js */
+
+/*! ./factoryWithTypeCheckers */
+
+/*! ./lib/ReactPropTypesSecret */
+
+/*! ./lib/has */
+
+/*! ./mediaQuery */
+
+/*! ./toQuery */
+
+/*! ./useMediaQuery */
+
+/*! css-mediaquery */
+
+/*! hyphenate-style-name */
+
+/*! matchmediaquery */
+
+/*! object-assign */
+
+/*! prop-types */
+
+/*! react */
+
+/*! react-is */
+
+/*! shallow-equal */
+
+/*!**********************!*\
+        !*** ./src/index.ts ***!
+        \**********************/
+
+/*!************************!*\
+        !*** ./src/Context.ts ***!
+        \************************/
+
+/*!************************!*\
+        !*** ./src/toQuery.ts ***!
+        \************************/
+
+/*!**************************!*\
+        !*** ./src/Component.ts ***!
+        \**************************/
+
+/*!***************************!*\
+        !*** ./src/mediaQuery.ts ***!
+        \***************************/
+
+/*!******************************!*\
+        !*** ./src/useMediaQuery.ts ***!
+        \******************************/
+
+/*!****************************************!*\
+        !*** ./node_modules/react-is/index.js ***!
+        \****************************************/
+
+/*!******************************************!*\
+        !*** ./node_modules/prop-types/index.js ***!
+        \******************************************/
+
+/*!********************************************!*\
+        !*** ./node_modules/prop-types/lib/has.js ***!
+        \********************************************/
+
+/*!*********************************************!*\
+        !*** ./node_modules/object-assign/index.js ***!
+        \*********************************************/
+
+/*!**********************************************!*\
+        !*** ./node_modules/css-mediaquery/index.js ***!
+        \**********************************************/
+
+/*!***********************************************!*\
+        !*** ./node_modules/matchmediaquery/index.js ***!
+        \***********************************************/
+
+/*!***************************************************!*\
+        !*** ./node_modules/prop-types/checkPropTypes.js ***!
+        \***************************************************/
+
+/*!****************************************************!*\
+        !*** ./node_modules/hyphenate-style-name/index.js ***!
+        \****************************************************/
+
+/*!******************************************************!*\
+        !*** ./node_modules/shallow-equal/dist/index.esm.js ***!
+        \******************************************************/
+
+/*!***********************************************************!*\
+        !*** ./node_modules/react-is/cjs/react-is.development.js ***!
+        \***********************************************************/
+
+/*!************************************************************!*\
+        !*** ./node_modules/prop-types/factoryWithTypeCheckers.js ***!
+        \************************************************************/
+
+/*!*************************************************************!*\
+        !*** ./node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
+        \*************************************************************/
+
+/*!**************************************************************************************!*\
+        !*** external {"commonjs":"react","commonjs2":"react","amd":"react","root":"React"} ***!
+        \**************************************************************************************/
+
+/**
+ * @license
+ * Lodash <https://lodash.com/>
+ * Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
+ * Released under MIT license <https://lodash.com/license>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ */
+
+/**
+ * @license React
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * use-sync-external-store-shim.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license lucide-react v0.446.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @remix-run/router v1.15.0
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
+
+/**
+ * React Router DOM v6.22.0
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
+
+/**
+ * React Router v6.22.0
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
+
+/** @license React v16.13.1
+         * react-is.development.js
+         *
+         * Copyright (c) Facebook, Inc. and its affiliates.
+         *
+         * This source code is licensed under the MIT license found in the
+         * LICENSE file in the root directory of this source tree.
+         */
+
+/** @license React v16.13.1
+ * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.14.0
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**![instagram](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTUxMiAzNzguN2MtNzMuNCAwLTEzMy4zIDU5LjktMTMzLjMgMTMzLjNTNDM4LjYgNjQ1LjMgNTEyIDY0NS4zIDY0NS4zIDU4NS40IDY0NS4zIDUxMiA1ODUuNCAzNzguNyA1MTIgMzc4Ljd6TTkxMS44IDUxMmMwLTU1LjIuNS0xMDkuOS0yLjYtMTY1LTMuMS02NC0xNy43LTEyMC44LTY0LjUtMTY3LjYtNDYuOS00Ni45LTEwMy42LTYxLjQtMTY3LjYtNjQuNS01NS4yLTMuMS0xMDkuOS0yLjYtMTY1LTIuNi01NS4yIDAtMTA5LjktLjUtMTY1IDIuNi02NCAzLjEtMTIwLjggMTcuNy0xNjcuNiA2NC41QzEzMi42IDIyNi4zIDExOC4xIDI4MyAxMTUgMzQ3Yy0zLjEgNTUuMi0yLjYgMTA5LjktMi42IDE2NXMtLjUgMTA5LjkgMi42IDE2NWMzLjEgNjQgMTcuNyAxMjAuOCA2NC41IDE2Ny42IDQ2LjkgNDYuOSAxMDMuNiA2MS40IDE2Ny42IDY0LjUgNTUuMiAzLjEgMTA5LjkgMi42IDE2NSAyLjYgNTUuMiAwIDEwOS45LjUgMTY1LTIuNiA2NC0zLjEgMTIwLjgtMTcuNyAxNjcuNi02NC41IDQ2LjktNDYuOSA2MS40LTEwMy42IDY0LjUtMTY3LjYgMy4yLTU1LjEgMi42LTEwOS44IDIuNi0xNjV6TTUxMiA3MTcuMWMtMTEzLjUgMC0yMDUuMS05MS42LTIwNS4xLTIwNS4xUzM5OC41IDMwNi45IDUxMiAzMDYuOSA3MTcuMSAzOTguNSA3MTcuMSA1MTIgNjI1LjUgNzE3LjEgNTEyIDcxNy4xem0yMTMuNS0zNzAuN2MtMjYuNSAwLTQ3LjktMjEuNC00Ny45LTQ3LjlzMjEuNC00Ny45IDQ3LjktNDcuOSA0Ny45IDIxLjQgNDcuOSA0Ny45YTQ3Ljg0IDQ3Ljg0IDAgMDEtNDcuOSA0Ny45eiIgLz48L3N2Zz4=) */
+
+/**![linkedin](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTg4MCAxMTJIMTQ0Yy0xNy43IDAtMzIgMTQuMy0zMiAzMnY3MzZjMCAxNy43IDE0LjMgMzIgMzIgMzJoNzM2YzE3LjcgMCAzMi0xNC4zIDMyLTMyVjE0NGMwLTE3LjctMTQuMy0zMi0zMi0zMnpNMzQ5LjMgNzkzLjdIMjMwLjZWNDExLjloMTE4Ljd2MzgxLjh6bS01OS4zLTQzNGE2OC44IDY4LjggMCAxMTY4LjgtNjguOGMtLjEgMzgtMzAuOSA2OC44LTY4LjggNjguOHptNTAzLjcgNDM0SDY3NS4xVjYwOGMwLTQ0LjMtLjgtMTAxLjItNjEuNy0xMDEuMi02MS43IDAtNzEuMiA0OC4yLTcxLjIgOTh2MTg4LjlINDIzLjdWNDExLjloMTEzLjh2NTIuMmgxLjZjMTUuOC0zMCA1NC41LTYxLjcgMTEyLjMtNjEuNyAxMjAuMiAwIDE0Mi4zIDc5LjEgMTQyLjMgMTgxLjl2MjA5LjR6IiAvPjwvc3ZnPg==) */
+
+/**![twitter-circle](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTUxMiA2NEMyNjQuNiA2NCA2NCAyNjQuNiA2NCA1MTJzMjAwLjYgNDQ4IDQ0OCA0NDggNDQ4LTIwMC42IDQ0OC00NDhTNzU5LjQgNjQgNTEyIDY0em0yMTUuMyAzMzcuN2MuMyA0LjcuMyA5LjYuMyAxNC40IDAgMTQ2LjgtMTExLjggMzE1LjktMzE2LjEgMzE1LjktNjMgMC0xMjEuNC0xOC4zLTE3MC42LTQ5LjggOSAxIDE3LjYgMS40IDI2LjggMS40IDUyIDAgOTkuOC0xNy42IDEzNy45LTQ3LjQtNDguOC0xLTg5LjgtMzMtMTAzLjgtNzcgMTcuMSAyLjUgMzIuNSAyLjUgNTAuMS0yYTExMSAxMTEgMCAwMS04OC45LTEwOXYtMS40YzE0LjcgOC4zIDMyIDEzLjQgNTAuMSAxNC4xYTExMS4xMyAxMTEuMTMgMCAwMS00OS41LTkyLjRjMC0yMC43IDUuNC0zOS42IDE1LjEtNTZhMzE1LjI4IDMxNS4yOCAwIDAwMjI5IDExNi4xQzQ5MiAzNTMuMSA1NDguNCAyOTIgNjE2LjIgMjkyYzMyIDAgNjAuOCAxMy40IDgxLjEgMzUgMjUuMS00LjcgNDkuMS0xNC4xIDcwLjUtMjYuNy04LjMgMjUuNy0yNS43IDQ3LjQtNDguOCA2MS4xIDIyLjQtMi40IDQ0LTguNiA2NC0xNy4zLTE1LjEgMjIuMi0zNCA0MS45LTU1LjcgNTcuNnoiIC8+PC9zdmc+) */
