@@ -85,7 +85,7 @@ const Navbar = () => {
                   <Link to="/alumni">
                 <li className={buttonStyle2}>
                     <div className="">
-                        Apple
+                        Alumni
                     </div>
                 </li>
                   </Link>
@@ -93,7 +93,7 @@ const Navbar = () => {
                   <Link to="/alumni">
                   <li className={buttonStyle1}>
                       <div className="">
-                          Apple
+                          Alumni
                       </div>
                   </li></Link>
                 )}
