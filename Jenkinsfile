@@ -1,5 +1,10 @@
 pipeline {
     agent any
+    environment {
+        RENDER_API_KEY = credentials('RENDER_API_KEY') // Add your Render API Key in Jenkins credentials
+        SERVER_SERVICE_ID = 'srv-csoruei3esus73cbgus0'
+        CLIENT_SERVICE_ID = 'srv-csot7kl6l47c7395dicg'
+    }
     stages {
         stage('Checkout') {
             steps {
@@ -16,6 +21,32 @@ pipeline {
             steps {
                 bat 'docker build -t aurum2403/client . -f client/Dockerfile'
                 bat 'docker push aurum2403/client'
+            }
+        }
+        stage('Update Backend on Render') {
+            steps {
+                script {
+                    def response = httpRequest(
+                        httpMode: 'POST',
+                        url: "https://api.render.com/v1/services/${SERVER_SERVICE_ID}/deploys",
+                        customHeaders: [[name: 'Authorization', value: "Bearer ${RENDER_API_KEY}"]],
+                        quiet: true
+                    )
+                    echo "Backend Deploy Response: ${response.content}"
+                }
+            }
+        }
+        stage('Update Frontend on Render') {
+            steps {
+                script {
+                    def response = httpRequest(
+                        httpMode: 'POST',
+                        url: "https://api.render.com/v1/services/${CLIENT_SERVICE_ID}/deploys",
+                        customHeaders: [[name: 'Authorization', value: "Bearer ${RENDER_API_KEY}"]],
+                        quiet: true
+                    )
+                    echo "Frontend Deploy Response: ${response.content}"
+                }
             }
         }
     }
