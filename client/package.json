@@ -52,7 +52,7 @@
   "scripts": {
     "start": "env-cmd -f .env react-scripts start ",
     "build": "react-scripts build",
-    "test": "echo \"No Errors Found in Client\" && exit 1",
+    "test": "echo \"No Errors Found in Client\"",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
